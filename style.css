@@ -1,0 +1,32 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.silder-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: grey;
+  border-radius: 8px;
+  align-items: center;
+  padding: 3px 10px;
+}
+
+.silder-score .score {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.silder-score .score.poor {
+  background: red;
+}
+
+.silder-score .score.ok {
+  background: yellow;
+}
+
+.silder-score .score.good {
+  background: green;
+}
